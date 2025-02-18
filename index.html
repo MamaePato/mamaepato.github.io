@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site da Mamãe Pato</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero">
+        <h1>Me ajuda a achar meus patinhos?</h1>
+        <div class="timebox">
+            <div class="time">
+                <h2 id="days">00</h2>
+                <p>Dias</p>
+            </div>
+            <div class="time">
+                <h2 id="hours">00</h2>
+                <p>Horas</p>
+            </div>
+            <div class="time">
+                <h2 id="minutes">00</h2>
+                <p>Minutos</p>
+            </div>
+            <div class="time">
+                <h2 id="seconds">00</h2>
+                <p>Segundos</p>
+            </div>
+        </div>
+        <div class="buttons">
+            <button onclick="window.open('regras.html', '_blank')">Informações</button>
+            <button onclick="window.open('leaderboard.html', '_blank')">Leaderboard</button>
+            <button onclick="window.open('https://forms.gle/NhBqBLHiXuKQNdys9', '_blank')">Formulário</button>
+        </div>
+        <div class="progress-info" id="progress-info">
+            <span>Porcentagem de patinhos encontrados: </span><span id="progress-percentage">0%</span>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+        <p class="contact-info">Teve algum problema? <a href="mailto:mamaepatoestamuitotriste@gmail.com">mamaepatoestamuitotriste@gmail.com</a></p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

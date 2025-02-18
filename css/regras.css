@@ -1,0 +1,81 @@
+body {
+    background-image: url('../images/backgroundpages.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f0f8ff;
+    color: #2c3e50;
+    font-family: 'Lora', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    text-align: left;
+    overflow-y: auto;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #2980b9;
+    text-align: left;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #2980b9;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+ul {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        padding: 10px;
+    }
+
+    .content {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p, ul {
+        font-size: 1rem;
+    }
+}
