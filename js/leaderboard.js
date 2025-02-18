@@ -23,5 +23,4 @@ function displayLeaderboard() {
     });
 }
 
-addPlayer('Alice', 100);
 displayLeaderboard();
