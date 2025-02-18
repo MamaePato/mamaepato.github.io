@@ -147,7 +147,7 @@ h1 {
 
     .hero, .timebox, .buttons, .progress-container, .contact-info {
         width: 100%;
-        padding: 10px;
+        padding: 30px;
         box-sizing: border-box;
     }
 
