@@ -6,9 +6,9 @@ function addPlayer(name, score) {
 }
 
 function displayLeaderboard() {
-    players.sort((a, b) => a.score - b.score);
+    players.sort((a, b) => b.score - a.score); // Alterado para ordem decrescente
     leaderboard.innerHTML = '';
-    const highestScore = players.length > 0 ? players[players.length - 1].score : null;
+    const highestScore = players.length > 0 ? players[0].score : null; // Alterado para pegar o primeiro jogador
 
     players.forEach((player) => {
         const row = leaderboard.insertRow();
@@ -22,5 +22,8 @@ function displayLeaderboard() {
         }
     });
 }
+
+addPlayer('Pato Apátrida', 1);
+addPlayer('Vice', 2);
 
 displayLeaderboard();
