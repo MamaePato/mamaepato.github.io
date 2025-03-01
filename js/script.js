@@ -33,7 +33,7 @@ function timer() {
 
 function updateProgressBar() {
     const total = 138;
-    const current = 2;
+    const current = 15;
     const percentage = (current / total) * 100;
     progressBar.style.width = percentage + '%';
     progressPercentage.innerHTML = percentage.toFixed(2) + '%';

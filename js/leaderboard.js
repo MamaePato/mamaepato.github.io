@@ -23,7 +23,8 @@ function displayLeaderboard() {
     });
 }
 
-addPlayer('Pato Apátrida', 1);
+addPlayer('Pato Apátrida', 5);
 addPlayer('Vice', 2);
+addPlayer('Marc', 12);
 
 displayLeaderboard();
