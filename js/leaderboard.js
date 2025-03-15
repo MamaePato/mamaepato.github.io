@@ -26,5 +26,7 @@ function displayLeaderboard() {
 addPlayer('Pato Apátrida', 5);
 addPlayer('Vice', 2);
 addPlayer('Marc', 12);
+addPlayer('Sapo Cururu Perneta', 2);
+addPlayer('Pato Árabe', 2);
 
 displayLeaderboard();
